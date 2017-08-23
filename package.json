@@ -15,12 +15,6 @@
     "chai": "~3.5.0",
     "mocha": "~3.0.2"
   },
-  "directories": {},
-  "dist": {
-    "shasum": "8af7389523eece1f0179f6aadef9fc84424fa01e",
-    "tarball": "https://registry.npmjs.org/zohorde/-/zohorde-0.2.12.tgz"
-  },
-  "gitHead": "aeb60308bfcd19c08de6b9243911d1fe4f911f03",
   "homepage": "https://github.com/dart-synacy/zohorde-custom#readme",
   "keywords": [
     "api",
@@ -31,18 +25,7 @@
   ],
   "license": "MIT",
   "main": "src/index.js",
-  "maintainers": [
-    {
-      "name": "gammaeltz",
-      "email": "albertstevelino@gmail.com"
-    },
-    {
-      "name": "gyosh",
-      "email": "will.gozali@gmail.com"
-    }
-  ],
   "name": "zohorde custom",
-  "optionalDependencies": {},
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
