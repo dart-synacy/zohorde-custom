@@ -49,6 +49,7 @@ Params:
   * parseResult: Boolean. In case of failed insertion, determine if you want to parse the response body. Defaults to true.
   * data: Object representing your record, with key = field name in zoho and value = desired value.
   * wfTrigger: Boolean, determining to trigger workflow after insertion or not.
+  * larid: ID, determines the lead assigment rule to be applied to the lead.
   * duplicateCheck: Set value as "1" to check the duplicate records and throw an error response or "2" to check the duplicate records, if exists, update the same.
   * isApproval: By default, records are inserted directly . To keep the records in approval mode, set value as true. You can use this parameters for Leads, Contacts, and Cases module.
   * newFormat: 
