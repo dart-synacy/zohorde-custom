@@ -1,4 +1,6 @@
-# ZOHORDE
+# ZOHORDE (Customized)
+Credits to the original owners of this module.
+I decided to make a customized one since the original repository cannot be accessed.
 
 Node module to connect your application to zoho CRM API, specifically built for bulk operations.
 
@@ -177,6 +179,7 @@ Params:
   * id: String representing zoho record id for the record to be updated.
   * data: Object representing your record, with key = field name in zoho and value = desired value.
   * wfTrigger: Boolean, determining to trigger workflow after insertion or not.
+  * larid: ID, determines the lead assigment rule to be applied to the lead.
   * newFormat: 
     * newFormat=1: To exclude fields with "null" values while inserting data from your CRM account. 
     * newFormat=2: To include fields with "null" values while inserting data from your CRM account.

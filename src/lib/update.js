@@ -34,6 +34,7 @@ module.exports = function (authToken, moduleName, rawParams) {
     xmlData: helper.toXmlData(moduleName, rawParams.data),
     wfTrigger: rawParams.wfTrigger,
     newFormat: rawParams.newFormat,
+    larid: rawParams.larid,
     version: '2'
   };
 
