@@ -6,6 +6,7 @@ var functions = {
   insert: require('./lib/insert'),
   insertBulk: require('./lib/insertBulk'),
   update: require('./lib/update'),
+  updateRelatedRecords: require('./lib/updateRelatedRecords'),
   updateBulk: require('./lib/updateBulk'),
   getBulkById: require('./lib/getBulkById'),
   getBulkUpdatedAfter: require('./lib/getBulkUpdatedAfter'),
